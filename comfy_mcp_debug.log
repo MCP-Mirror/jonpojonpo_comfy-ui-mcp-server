@@ -1,0 +1,644 @@
+2024-12-04 20:14:53,680 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:14:53,681 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:14:53,681 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:17:12,196 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:17:12,197 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:17:12,198 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:18:04,659 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:18:04,660 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:18:04,661 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:19:41,332 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:19:41,333 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:19:41,334 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:21:56,722 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:21:56,723 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:21:56,723 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:21:56,724 - mcp.server - DEBUG - Initializing server 'comfy-ui-server'
+2024-12-04 20:21:56,724 - mcp.server - DEBUG - Registering handler for ListResourcesRequest
+2024-12-04 20:21:56,725 - mcp.server - DEBUG - Registering handler for ReadResourceRequest
+2024-12-04 20:21:56,726 - mcp.server - DEBUG - Registering handler for ListToolsRequest
+2024-12-04 20:21:56,727 - mcp.server - DEBUG - Registering handler for CallToolRequest
+2024-12-04 20:21:56,727 - comfy-mcp-server - INFO - Server initialized successfully
+2024-12-04 20:21:56,734 - comfy-mcp-server - INFO - Established stdio server connection
+2024-12-04 20:21:56,734 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:21:56,735 - comfy-mcp-server - INFO - Connecting to ComfyUI WebSocket at ws://127.0.0.1:8188/ws
+2024-12-04 20:21:56,757 - websockets.client - DEBUG - = connection is CONNECTING
+2024-12-04 20:21:56,759 - websockets.client - DEBUG - > GET /ws HTTP/1.1
+2024-12-04 20:21:56,759 - websockets.client - DEBUG - > Host: 127.0.0.1:8188
+2024-12-04 20:21:56,760 - websockets.client - DEBUG - > Upgrade: websocket
+2024-12-04 20:21:56,760 - websockets.client - DEBUG - > Connection: Upgrade
+2024-12-04 20:21:56,761 - websockets.client - DEBUG - > Sec-WebSocket-Key: 18E/bZXJrbc1u9xRZLgbnQ==
+2024-12-04 20:21:56,761 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-12-04 20:21:56,762 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-12-04 20:21:56,762 - websockets.client - DEBUG - > User-Agent: Python/3.10 websockets/14.1
+2024-12-04 20:21:56,763 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-12-04 20:21:56,764 - websockets.client - DEBUG - < Upgrade: websocket
+2024-12-04 20:21:56,764 - websockets.client - DEBUG - < Connection: upgrade
+2024-12-04 20:21:56,765 - websockets.client - DEBUG - < Sec-WebSocket-Accept: 97o6qlNE4TGAueLugAXCpEkCIbU=
+2024-12-04 20:21:56,765 - websockets.client - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate
+2024-12-04 20:21:56,766 - websockets.client - DEBUG - < Date: Wed, 04 Dec 2024 20:21:56 GMT
+2024-12-04 20:21:56,766 - websockets.client - DEBUG - < Server: Python/3.12 aiohttp/3.11.6
+2024-12-04 20:21:56,767 - websockets.client - DEBUG - = connection is OPEN
+2024-12-04 20:21:56,767 - websockets.client - DEBUG - < TEXT '{"type": "status", "data": {"status": {"exec_in...4a36891d815f6045e6c1"}}' [120 bytes]
+2024-12-04 20:21:56,768 - comfy-mcp-server - INFO - Connected to ComfyUI WebSocket
+2024-12-04 20:21:56,769 - comfy-mcp-server - INFO - Server started with WebSocket
+2024-12-04 20:21:56,769 - comfy-mcp-server - INFO - Running MCP server...
+2024-12-04 20:21:56,771 - comfy-mcp-server - DEBUG - Received WebSocket message: {'type': 'status', 'data': {'status': {'exec_info': {'queue_remaining': 0}}, 'sid': 'a78f20ec25db4a36891d815f6045e6c1'}}
+2024-12-04 20:22:05,307 - comfy-mcp-server - INFO - Cleaning up...
+2024-12-04 20:22:05,307 - comfy-mcp-server - INFO - Stopping server...
+2024-12-04 20:22:05,308 - comfy-mcp-server - INFO - Server stopped
+2024-12-04 20:23:53,994 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:23:53,995 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:23:53,995 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:23:53,995 - mcp.server - DEBUG - Initializing server 'comfy-ui-server'
+2024-12-04 20:23:53,995 - mcp.server - DEBUG - Registering handler for ListResourcesRequest
+2024-12-04 20:23:53,995 - mcp.server - DEBUG - Registering handler for ReadResourceRequest
+2024-12-04 20:23:53,996 - mcp.server - DEBUG - Registering handler for ListToolsRequest
+2024-12-04 20:23:53,996 - mcp.server - DEBUG - Registering handler for CallToolRequest
+2024-12-04 20:23:53,996 - comfy-mcp-server - INFO - Server initialized successfully
+2024-12-04 20:23:54,008 - comfy-mcp-server - INFO - Established stdio server connection
+2024-12-04 20:23:54,009 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:23:54,009 - comfy-mcp-server - INFO - Connecting to ComfyUI WebSocket at ws://127.0.0.1:8188/ws
+2024-12-04 20:23:54,033 - websockets.client - DEBUG - = connection is CONNECTING
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > GET /ws HTTP/1.1
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > Host: 127.0.0.1:8188
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > Upgrade: websocket
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > Connection: Upgrade
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > Sec-WebSocket-Key: +vS1f0N5RGZ92oNH+IF1eA==
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2024-12-04 20:23:54,035 - websockets.client - DEBUG - > User-Agent: Python/3.10 websockets/14.1
+2024-12-04 20:23:54,037 - websockets.client - DEBUG - < HTTP/1.1 101 Switching Protocols
+2024-12-04 20:23:54,037 - websockets.client - DEBUG - < Upgrade: websocket
+2024-12-04 20:23:54,037 - websockets.client - DEBUG - < Connection: upgrade
+2024-12-04 20:23:54,038 - websockets.client - DEBUG - < Sec-WebSocket-Accept: V3ziReyoY600EkZ3Py7uM3avhQQ=
+2024-12-04 20:23:54,038 - websockets.client - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate
+2024-12-04 20:23:54,038 - websockets.client - DEBUG - < Date: Wed, 04 Dec 2024 20:23:54 GMT
+2024-12-04 20:23:54,038 - websockets.client - DEBUG - < Server: Python/3.12 aiohttp/3.11.6
+2024-12-04 20:23:54,038 - websockets.client - DEBUG - = connection is OPEN
+2024-12-04 20:23:54,038 - websockets.client - DEBUG - < TEXT '{"type": "status", "data": {"status": {"exec_in...425c838b8c144f7f40b1"}}' [120 bytes]
+2024-12-04 20:23:54,039 - comfy-mcp-server - INFO - Connected to ComfyUI WebSocket
+2024-12-04 20:23:54,039 - comfy-mcp-server - INFO - Server started with WebSocket
+2024-12-04 20:23:54,039 - comfy-mcp-server - INFO - Running MCP server...
+2024-12-04 20:23:54,041 - comfy-mcp-server - DEBUG - Received WebSocket message: {'type': 'status', 'data': {'status': {'exec_info': {'queue_remaining': 0}}, 'sid': '268bf065955f425c838b8c144f7f40b1'}}
+2024-12-04 20:23:54,046 - mcp.server - DEBUG - Received message: root=InitializedNotification(method='notifications/initialized', params=None, jsonrpc='2.0')
+2024-12-04 20:23:54,053 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57100>
+2024-12-04 20:23:54,053 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:23:54,053 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:23:54,053 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:23:54,054 - mcp.server - DEBUG - Response sent
+2024-12-04 20:23:54,056 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:23:54,056 - mcp.server - INFO - Processing request of type ListToolsRequest
+2024-12-04 20:23:54,056 - mcp.server - DEBUG - Dispatching request of type ListToolsRequest
+2024-12-04 20:23:54,057 - mcp.server - DEBUG - Response sent
+2024-12-04 20:23:54,062 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57760>
+2024-12-04 20:23:54,063 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:23:54,063 - mcp.server - DEBUG - Response sent
+2024-12-04 20:23:59,060 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C568C0>
+2024-12-04 20:23:59,061 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:23:59,061 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:23:59,061 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:23:59,061 - mcp.server - DEBUG - Response sent
+2024-12-04 20:23:59,064 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57220>
+2024-12-04 20:23:59,064 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:23:59,064 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:04,056 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57640>
+2024-12-04 20:24:04,056 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:04,056 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:04,056 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:04,057 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:04,065 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57670>
+2024-12-04 20:24:04,065 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:04,066 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:09,186 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:24:09,186 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:09,187 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:09,187 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:09,187 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:09,228 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:24:09,229 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:09,229 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:14,189 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57730>
+2024-12-04 20:24:14,189 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:14,189 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:14,190 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:14,190 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:14,192 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57760>
+2024-12-04 20:24:14,192 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:14,193 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:16,610 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56FE0>
+2024-12-04 20:24:16,610 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:16,610 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:16,610 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:16,611 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:16,672 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C561D0>
+2024-12-04 20:24:16,672 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:16,672 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:21,613 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577C0>
+2024-12-04 20:24:21,613 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:21,614 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:21,614 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:21,614 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:21,616 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54550>
+2024-12-04 20:24:21,616 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:21,616 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:26,616 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C572B0>
+2024-12-04 20:24:26,616 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:26,616 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:26,616 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:26,616 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:26,618 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C570D0>
+2024-12-04 20:24:26,619 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:26,619 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:31,611 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57100>
+2024-12-04 20:24:31,611 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:31,611 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:31,611 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:31,611 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:31,613 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57820>
+2024-12-04 20:24:31,614 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:31,614 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:35,026 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C576D0>
+2024-12-04 20:24:35,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:35,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:35,027 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:35,027 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:35,117 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C568C0>
+2024-12-04 20:24:35,117 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:35,117 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:40,059 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57220>
+2024-12-04 20:24:40,059 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:40,059 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:40,059 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:40,060 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:40,079 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57640>
+2024-12-04 20:24:40,080 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:40,080 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:45,048 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57670>
+2024-12-04 20:24:45,048 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:45,048 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:45,049 - comfy-mcp-server - DEBUG - Listed 0 resources
+2024-12-04 20:24:45,049 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:45,072 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:24:45,072 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:45,073 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:48,662 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:24:48,662 - mcp.server - INFO - Processing request of type CallToolRequest
+2024-12-04 20:24:48,662 - mcp.server - DEBUG - Dispatching request of type CallToolRequest
+2024-12-04 20:24:48,663 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:50,050 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57730>
+2024-12-04 20:24:50,050 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:50,051 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:50,051 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:24:50,051 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:50,062 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C571C0>
+2024-12-04 20:24:50,062 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:50,062 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:54,762 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56FE0>
+2024-12-04 20:24:54,762 - mcp.server - INFO - Processing request of type CallToolRequest
+2024-12-04 20:24:54,762 - mcp.server - DEBUG - Dispatching request of type CallToolRequest
+2024-12-04 20:24:54,762 - websockets.client - DEBUG - > TEXT '{"type": "execute", "data": {"3": {"inputs": {"...itle": "Save Image"}}}}' [1202 bytes]
+2024-12-04 20:24:54,763 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:55,038 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57850>
+2024-12-04 20:24:55,039 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:24:55,039 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:24:55,039 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:24:55,039 - mcp.server - DEBUG - Response sent
+2024-12-04 20:24:55,051 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577C0>
+2024-12-04 20:24:55,051 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:24:55,051 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:00,034 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57220>
+2024-12-04 20:25:00,034 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:00,034 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:00,034 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:00,035 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:00,053 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:25:00,053 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:00,053 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:05,026 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57130>
+2024-12-04 20:25:05,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:05,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:05,027 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:05,027 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:05,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57790>
+2024-12-04 20:25:05,030 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:05,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:10,027 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57820>
+2024-12-04 20:25:10,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:10,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:10,027 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:10,027 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:10,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57760>
+2024-12-04 20:25:10,030 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:10,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:15,033 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57880>
+2024-12-04 20:25:15,033 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:15,033 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:15,033 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:15,033 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:15,036 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57700>
+2024-12-04 20:25:15,036 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:15,036 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:20,028 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57160>
+2024-12-04 20:25:20,028 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:20,028 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:20,028 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:20,029 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:20,031 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:25:20,031 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:20,031 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:25,026 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57730>
+2024-12-04 20:25:25,026 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:25,026 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:25,027 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:25,027 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:25,029 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C576A0>
+2024-12-04 20:25:25,029 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:25,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:30,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57940>
+2024-12-04 20:25:30,030 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:30,030 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:30,031 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:30,031 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:30,033 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54550>
+2024-12-04 20:25:30,033 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:30,033 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:35,027 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C578E0>
+2024-12-04 20:25:35,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:35,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:35,027 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:35,027 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:35,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54D60>
+2024-12-04 20:25:35,031 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:35,031 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:40,027 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577F0>
+2024-12-04 20:25:40,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:40,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:40,027 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:40,028 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:40,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57850>
+2024-12-04 20:25:40,030 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:40,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:45,029 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57940>
+2024-12-04 20:25:45,029 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:45,029 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:45,029 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:45,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:45,031 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:25:45,032 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:45,032 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:50,027 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57910>
+2024-12-04 20:25:50,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:50,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:50,027 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:50,028 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:50,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57880>
+2024-12-04 20:25:50,030 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:50,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:55,028 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57790>
+2024-12-04 20:25:55,028 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:25:55,028 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:25:55,028 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:25:55,029 - mcp.server - DEBUG - Response sent
+2024-12-04 20:25:55,031 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57820>
+2024-12-04 20:25:55,031 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:25:55,031 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:00,027 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57700>
+2024-12-04 20:26:00,027 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:00,027 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:00,028 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:00,028 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:00,030 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57970>
+2024-12-04 20:26:00,030 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:00,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:05,029 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54DF0>
+2024-12-04 20:26:05,030 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:05,030 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:05,030 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:05,030 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:05,032 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577C0>
+2024-12-04 20:26:05,032 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:05,032 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:06,572 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:26:06,572 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:06,572 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:06,572 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:06,572 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:06,749 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57730>
+2024-12-04 20:26:06,749 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:06,750 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:11,580 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C576A0>
+2024-12-04 20:26:11,580 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:11,580 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:11,580 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:11,581 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:11,583 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C579A0>
+2024-12-04 20:26:11,584 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:11,584 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:16,581 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54550>
+2024-12-04 20:26:16,581 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:16,581 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:16,581 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:16,582 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:16,583 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C578E0>
+2024-12-04 20:26:16,584 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:16,584 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:21,608 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54D60>
+2024-12-04 20:26:21,608 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:21,608 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:21,608 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:21,609 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:21,633 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577F0>
+2024-12-04 20:26:21,633 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:21,633 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:26,589 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57850>
+2024-12-04 20:26:26,590 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:26,590 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:26,590 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:26,591 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:26,613 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57940>
+2024-12-04 20:26:26,614 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:26,614 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:31,600 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:26:31,601 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:31,601 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:31,601 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:31,601 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:31,617 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57910>
+2024-12-04 20:26:31,617 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:31,617 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:36,592 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57880>
+2024-12-04 20:26:36,592 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:36,592 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:36,592 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:36,593 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:36,622 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57790>
+2024-12-04 20:26:36,623 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:36,623 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:41,596 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57820>
+2024-12-04 20:26:41,596 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:41,596 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:41,597 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:41,597 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:41,621 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57700>
+2024-12-04 20:26:41,622 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:41,622 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:46,600 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57970>
+2024-12-04 20:26:46,600 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:46,600 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:46,600 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:46,601 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:46,628 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54DF0>
+2024-12-04 20:26:46,628 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:46,628 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:51,572 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577C0>
+2024-12-04 20:26:51,572 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:51,572 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:51,572 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:51,572 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:51,574 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:26:51,574 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:51,575 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:56,578 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57730>
+2024-12-04 20:26:56,579 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:26:56,579 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:26:56,579 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:26:56,579 - mcp.server - DEBUG - Response sent
+2024-12-04 20:26:56,581 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C576A0>
+2024-12-04 20:26:56,581 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:26:56,582 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:01,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C579A0>
+2024-12-04 20:27:01,573 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:01,573 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:01,573 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:01,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:01,575 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54550>
+2024-12-04 20:27:01,575 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:01,576 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:06,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C578E0>
+2024-12-04 20:27:06,574 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:06,574 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:06,574 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:06,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:06,576 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54D60>
+2024-12-04 20:27:06,576 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:06,577 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:11,572 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577F0>
+2024-12-04 20:27:11,572 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:11,572 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:11,572 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:11,573 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:11,575 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57850>
+2024-12-04 20:27:11,575 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:11,576 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:16,577 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57940>
+2024-12-04 20:27:16,578 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:16,578 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:16,578 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:16,578 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:16,581 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C576A0>
+2024-12-04 20:27:16,581 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:16,581 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:21,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57910>
+2024-12-04 20:27:21,573 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:21,573 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:21,573 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:21,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:21,576 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57880>
+2024-12-04 20:27:21,576 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:21,576 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:26,574 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57790>
+2024-12-04 20:27:26,574 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:26,574 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:26,574 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:26,575 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:26,577 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57820>
+2024-12-04 20:27:26,577 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:26,577 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:31,577 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57700>
+2024-12-04 20:27:31,577 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:31,577 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:31,577 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:31,578 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:31,580 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57970>
+2024-12-04 20:27:31,581 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:31,581 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:36,572 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:27:36,572 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:36,572 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:36,572 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:36,572 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:36,575 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577C0>
+2024-12-04 20:27:36,575 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:36,575 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:41,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:27:41,573 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:41,573 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:41,574 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:41,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:41,576 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C579A0>
+2024-12-04 20:27:41,576 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:41,576 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:46,576 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C579D0>
+2024-12-04 20:27:46,576 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:46,576 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:46,577 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:46,577 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:46,579 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C572B0>
+2024-12-04 20:27:46,579 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:46,580 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:51,577 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54550>
+2024-12-04 20:27:51,577 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:51,577 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:51,577 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:51,578 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:51,580 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C578E0>
+2024-12-04 20:27:51,580 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:51,580 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:56,581 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C54D60>
+2024-12-04 20:27:56,582 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:27:56,582 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:27:56,582 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:27:56,582 - mcp.server - DEBUG - Response sent
+2024-12-04 20:27:56,586 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577F0>
+2024-12-04 20:27:56,586 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:27:56,586 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:01,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57850>
+2024-12-04 20:28:01,574 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:28:01,574 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:28:01,574 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:28:01,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:01,577 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57940>
+2024-12-04 20:28:01,577 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:28:01,577 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:06,572 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C576A0>
+2024-12-04 20:28:06,572 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:28:06,572 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:28:06,572 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:28:06,572 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:06,574 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57910>
+2024-12-04 20:28:06,575 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:28:06,575 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:11,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57880>
+2024-12-04 20:28:11,573 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:28:11,573 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:28:11,573 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:28:11,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:11,575 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57790>
+2024-12-04 20:28:11,575 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:28:11,576 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:16,572 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57820>
+2024-12-04 20:28:16,572 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:28:16,572 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:28:16,573 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:28:16,573 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:16,575 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57700>
+2024-12-04 20:28:16,575 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:28:16,575 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:16,855 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:28:16,856 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:28:16,856 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:28:16,857 - mcp.server - DEBUG - Initializing server 'comfy-ui-server'
+2024-12-04 20:28:16,857 - mcp.server - DEBUG - Registering handler for ListResourcesRequest
+2024-12-04 20:28:16,858 - mcp.server - DEBUG - Registering handler for ListToolsRequest
+2024-12-04 20:28:16,858 - mcp.server - DEBUG - Registering handler for CallToolRequest
+2024-12-04 20:28:16,859 - comfy-mcp-server - INFO - Server initialized successfully
+2024-12-04 20:28:16,865 - comfy-mcp-server - INFO - Established stdio server connection
+2024-12-04 20:28:16,866 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:28:16,866 - comfy-mcp-server - INFO - Running MCP server...
+2024-12-04 20:28:21,573 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C57970>
+2024-12-04 20:28:21,573 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:28:21,573 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:28:21,573 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:28:21,574 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:21,576 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C566B0>
+2024-12-04 20:28:21,576 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:28:21,576 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:24,411 - comfy-mcp-server - INFO - Cleaning up...
+2024-12-04 20:28:24,412 - comfy-mcp-server - INFO - Stopping server...
+2024-12-04 20:28:26,578 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C577C0>
+2024-12-04 20:28:26,578 - mcp.server - INFO - Processing request of type ListResourcesRequest
+2024-12-04 20:28:26,578 - mcp.server - DEBUG - Dispatching request of type ListResourcesRequest
+2024-12-04 20:28:26,578 - comfy-mcp-server - DEBUG - Listed 1 resources
+2024-12-04 20:28:26,578 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:26,582 - mcp.server - DEBUG - Received message: <mcp.shared.session.RequestResponder object at 0x000001F686C56980>
+2024-12-04 20:28:26,582 - mcp.server - INFO - Processing request of type ListPromptsRequest
+2024-12-04 20:28:26,582 - mcp.server - DEBUG - Response sent
+2024-12-04 20:28:28,008 - comfy-mcp-server - INFO - Cleaning up...
+2024-12-04 20:28:28,013 - comfy-mcp-server - INFO - Stopping server...
+2024-12-04 20:28:28,015 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2024-12-04 20:28:28,017 - websockets.client - DEBUG - = connection is CLOSING
+2024-12-04 20:28:28,019 - websockets.client - DEBUG - < CLOSE 1000 (OK) [2 bytes]
+2024-12-04 20:28:28,040 - websockets.client - DEBUG - < EOF
+2024-12-04 20:28:28,042 - websockets.client - DEBUG - > EOF
+2024-12-04 20:28:28,043 - websockets.client - DEBUG - = connection is CLOSED
+2024-12-04 20:28:28,045 - websockets.client - DEBUG - x half-closing TCP connection
+2024-12-04 20:28:28,046 - comfy-mcp-server - INFO - Server stopped
+2024-12-04 20:28:32,106 - asyncio - DEBUG - Using proactor: IocpProactor
+2024-12-04 20:28:32,107 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:28:32,107 - comfy-mcp-server - INFO - Initializing ComfyUI MCP Server...
+2024-12-04 20:28:32,107 - mcp.server - DEBUG - Initializing server 'comfy-ui-server'
+2024-12-04 20:28:32,108 - mcp.server - DEBUG - Registering handler for ListResourcesRequest
+2024-12-04 20:28:32,108 - mcp.server - DEBUG - Registering handler for ListToolsRequest
+2024-12-04 20:28:32,108 - mcp.server - DEBUG - Registering handler for CallToolRequest
+2024-12-04 20:28:32,108 - comfy-mcp-server - INFO - Server initialized successfully
+2024-12-04 20:28:32,114 - comfy-mcp-server - INFO - Established stdio server connection
+2024-12-04 20:28:32,115 - comfy-mcp-server - INFO - Starting ComfyUI MCP Server...
+2024-12-04 20:28:32,115 - comfy-mcp-server - INFO - Running MCP server...
+2024-12-04 20:29:30,503 - comfy-mcp-server - ERROR - Server error: unhandled errors in a TaskGroup (1 sub-exception)
+  + Exception Group Traceback (most recent call last):
+  |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+  |     yield read_stream, write_stream
+  |   File "E:\Claude\comfy-ui-mcp-server\src\comfy_ui_mcp_server\server.py", line 179, in main
+  |     await server.server.run(streams[0], streams[1], init_options)
+  |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\__init__.py", line 423, in run
+  |     async with ServerSession(
+  |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\shared\session.py", line 122, in __aexit__
+  |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+  |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\anyio\_backends\_asyncio.py", line 763, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\shared\session.py", line 231, in _receive_loop
+    |     await self._received_request(responder)
+    |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\session.py", line 133, in _received_request
+    |     capabilities=self._init_options.capabilities,
+    | AttributeError: 'dict' object has no attribute 'capabilities'
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+  + Exception Group Traceback (most recent call last):
+  |   File "E:\Claude\comfy-ui-mcp-server\src\comfy_ui_mcp_server\server.py", line 165, in main
+  |     async with stdio_server() as streams:
+  |   File "C:\Users\Jon\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 217, in __aexit__
+  |     await self.gen.athrow(typ, value, traceback)
+  |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\stdio.py", line 80, in stdio_server
+  |     async with anyio.create_task_group() as tg:
+  |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\anyio\_backends\_asyncio.py", line 763, in __aexit__
+  |     raise BaseExceptionGroup(
+  | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\stdio.py", line 83, in stdio_server
+    |     yield read_stream, write_stream
+    |   File "E:\Claude\comfy-ui-mcp-server\src\comfy_ui_mcp_server\server.py", line 179, in main
+    |     await server.server.run(streams[0], streams[1], init_options)
+    |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\__init__.py", line 423, in run
+    |     async with ServerSession(
+    |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\shared\session.py", line 122, in __aexit__
+    |     return await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\anyio\_backends\_asyncio.py", line 763, in __aexit__
+    |     raise BaseExceptionGroup(
+    | exceptiongroup.ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\shared\session.py", line 231, in _receive_loop
+      |     await self._received_request(responder)
+      |   File "E:\Claude\comfy-ui-mcp-server\.venv\lib\site-packages\mcp\server\session.py", line 133, in _received_request
+      |     capabilities=self._init_options.capabilities,
+      | AttributeError: 'dict' object has no attribute 'capabilities'
+      +------------------------------------
+2024-12-04 20:29:30,523 - comfy-mcp-server - INFO - Cleaning up...
+2024-12-04 20:29:30,523 - comfy-mcp-server - INFO - Stopping server...
