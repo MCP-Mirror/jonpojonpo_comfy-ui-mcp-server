@@ -35,37 +35,52 @@ class ComfyUIServer:
     def setup_handlers(self):
         @self.app.list_tools()
         async def list_tools() -> List[Tool]:
-            """List available image generation tools."""
+            """List available video generation tools."""
             return [
                 Tool(
-                    name="generate_image",
-                    description="Generate an image using ComfyUI",
+                    name="generate_video",
+                    description="Generate a video using LTX-V model in ComfyUI",
                     inputSchema={
                         "type": "object",
                         "properties": {
                             "prompt": {
                                 "type": "string",
-                                "description": "Positive prompt describing what you want in the image"
+                                "description": "Detailed positive prompt describing what you want in the video"
                             },
                             "negative_prompt": {
                                 "type": "string",
                                 "description": "Negative prompt describing what you don't want",
-                                "default": "bad hands, bad quality"
+                                "default": "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly"
                             },
                             "seed": {
                                 "type": "number",
                                 "description": "Seed for reproducible generation",
-                                "default": 8566257
+                                "default": 497797676867141
                             },
                             "width": {
                                 "type": "number",
-                                "description": "Image width in pixels",
-                                "default": 512
+                                "description": "Video width in pixels",
+                                "default": 768
                             },
                             "height": {
                                 "type": "number",
-                                "description": "Image height in pixels",
+                                "description": "Video height in pixels",
                                 "default": 512
+                            },
+                            "num_frames": {
+                                "type": "number",
+                                "description": "Number of frames in the video",
+                                "default": 97
+                            },
+                            "steps": {
+                                "type": "number",
+                                "description": "Number of sampling steps",
+                                "default": 30
+                            },
+                            "fps": {
+                                "type": "number",
+                                "description": "Frames per second for the output video",
+                                "default": 24
                             }
                         },
                         "required": ["prompt"]
@@ -75,116 +90,134 @@ class ComfyUIServer:
 
         @self.app.call_tool()
         async def call_tool(name: str, arguments: Dict[str, Any]) -> List[TextContent | ImageContent | EmbeddedResource]:
-            """Handle tool execution for image generation."""
-            if name != "generate_image":
+            """Handle tool execution for video generation."""
+            if name != "generate_video":
                 raise ValueError(f"Unknown tool: {name}")
 
             if not isinstance(arguments, dict) or "prompt" not in arguments:
                 raise ValueError("Invalid generation arguments")
 
             try:
-                logger.info(f"Generating image with arguments: {arguments}")
-                image_data = await self.generate_image(
+                logger.info(f"Generating video with arguments: {arguments}")
+                video_data = await self.generate_video(
                     prompt=arguments["prompt"],
-                    negative_prompt=arguments.get("negative_prompt", "bad hands, bad quality"),
-                    seed=int(arguments.get("seed", 8566257)),
-                    width=int(arguments.get("width", 512)),
-                    height=int(arguments.get("height", 512))
+                    negative_prompt=arguments.get("negative_prompt", "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly"),
+                    seed=int(arguments.get("seed", 497797676867141)),
+                    width=int(arguments.get("width", 768)),
+                    height=int(arguments.get("height", 512)),
+                    num_frames=int(arguments.get("num_frames", 97)),
+                    steps=int(arguments.get("steps", 30)),
+                    fps=int(arguments.get("fps", 24))
                 )
 
-                if image_data:
+                if video_data:
                     return [
                         ImageContent(
                             type="image",
-                            data=base64.b64encode(image_data).decode('utf-8'),
-                            mimeType="image/png"
+                            data=base64.b64encode(video_data).decode('utf-8'),
+                            mimeType="image/webp"  # Using WebP for animated content
                         )
                     ]
                 else:
-                    raise RuntimeError("No image data received")
+                    raise RuntimeError("No video data received")
 
             except Exception as e:
                 logger.error(f"Generation error: {str(e)}")
                 return [
                     TextContent(
                         type="text",
-                        text=f"Image generation failed: {str(e)}"
+                        text=f"Video generation failed: {str(e)}"
                     )
                 ]
 
-    async def generate_image(
+    async def generate_video(
         self,
         prompt: str,
         negative_prompt: str,
         seed: int,
         width: int,
-        height: int
+        height: int,
+        num_frames: int,
+        steps: int,
+        fps: int
     ) -> bytes:
-        """Generate an image using ComfyUI."""
-        # Construct ComfyUI workflow
+        """Generate a video using ComfyUI with LTX-V model."""
+        # Construct ComfyUI workflow based on the provided JSON
         workflow = {
-            "4": {
-                "class_type": "CheckpointLoaderSimple",
-                "inputs": {
-                    "ckpt_name": "v1-5-pruned-emaonly.safetensors"
-                }
+            "38": {
+                "class_type": "CLIPLoader",
+                "inputs": {},
+                "widgets_values": ["t5xxl_fp16.safetensors", "ltxv"]
             },
-            "5": {
-                "class_type": "EmptyLatentImage",
-                "inputs": {
-                    "batch_size": 1,
-                    "height": height,
-                    "width": width
-                }
+            "44": {
+                "class_type": "CheckpointLoaderSimple",
+                "inputs": {},
+                "widgets_values": ["ltx-video-2b-v0.9.safetensors"]
             },
             "6": {
                 "class_type": "CLIPTextEncode",
                 "inputs": {
-                    "clip": ["4", 1],
-                    "text": prompt
-                }
+                    "clip": ["38", 0]
+                },
+                "widgets_values": [prompt]
             },
             "7": {
                 "class_type": "CLIPTextEncode",
                 "inputs": {
-                    "clip": ["4", 1],
-                    "text": negative_prompt
-                }
+                    "clip": ["38", 0]
+                },
+                "widgets_values": [negative_prompt]
             },
-            "3": {
-                "class_type": "KSampler",
+            "69": {
+                "class_type": "LTXVConditioning",
                 "inputs": {
-                    "cfg": 8,
-                    "denoise": 1,
-                    "latent_image": ["5", 0],
-                    "model": ["4", 0],
-                    "negative": ["7", 0],
                     "positive": ["6", 0],
-                    "sampler_name": "euler",
-                    "scheduler": "normal",
-                    "seed": seed,
-                    "steps": 20
-                }
+                    "negative": ["7", 0]
+                },
+                "widgets_values": [25]
+            },
+            "70": {
+                "class_type": "EmptyLTXVLatentVideo",
+                "inputs": {},
+                "widgets_values": [width, height, num_frames, 1]
+            },
+            "71": {
+                "class_type": "LTXVScheduler",
+                "inputs": {
+                    "latent": ["70", 0]
+                },
+                "widgets_values": [steps, 2.05, 0.95, True, 0.1]
+            },
+            "72": {
+                "class_type": "SamplerCustom",
+                "inputs": {
+                    "model": ["44", 0],
+                    "positive": ["69", 0],
+                    "negative": ["69", 1],
+                    "sampler": ["73", 0],
+                    "sigmas": ["71", 0],
+                    "latent_image": ["70", 0]
+                },
+                "widgets_values": [True, seed, "randomize", 3]
+            },
+            "73": {
+                "class_type": "KSamplerSelect",
+                "inputs": {},
+                "widgets_values": ["euler"]
             },
             "8": {
                 "class_type": "VAEDecode",
                 "inputs": {
-                    "samples": ["3", 0],
-                    "vae": ["4", 2]
+                    "samples": ["72", 0],
+                    "vae": ["44", 2]
                 }
             },
-            "save_image_websocket": {
-                "class_type": "SaveImageWebsocket",
+            "41": {
+                "class_type": "SaveAnimatedWEBP",
                 "inputs": {
                     "images": ["8", 0]
-                }
-            },
-            "save_image": {
-                "class_type": "SaveImage",
-                "inputs": {
-                    "images": ["8", 0],
-                    "filename_prefix": "mcp"
-                }
+                },
+                "widgets_values": ["ComfyUI", fps, False, 90, "default"]
             }
         }
 
@@ -221,7 +254,7 @@ class ComfyUIServer:
                             pass
                     else:
                         logger.info(f"Received binary message of length: {len(message)}")
-                        if len(message) > 8:  # Check if we have actual image data
+                        if len(message) > 8:  # Check if we have actual video data
                             return message[8:]  # Remove binary header
                         else:
                             logger.warning(f"Received short binary message: {message}")
@@ -233,7 +266,7 @@ class ComfyUIServer:
                     logger.error(f"Error processing message: {e}")
                     continue
 
-        raise RuntimeError("No valid image data received")
+        raise RuntimeError("No valid video data received")
 
     async def queue_prompt(self, prompt: Dict[str, Any]) -> Dict[str, Any]:
         """Queue a prompt with ComfyUI."""
