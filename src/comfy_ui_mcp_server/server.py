@@ -107,7 +107,7 @@ class ComfyUIServer:
                 "class_type": "LTXVScheduler",
                 "inputs": {
                     "latent": ["70", 0],
-                    "steps": 40,
+                    "steps": 100,
                     "max_shift": 2.05,
                     "base_shift": 0.95,
                     "terminal": 0.1,
